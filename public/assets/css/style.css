@@ -1,0 +1,333 @@
+.navbar{
+    background: black;
+}
+
+.navbar-connexion{
+    width: 25%;
+}
+
+body{
+    background: black;
+}
+
+.textColor{
+    color: white;
+}
+
+.sizeIcon{
+    width: 20%;
+    height: auto;
+}
+
+.sizeIcon-footer{
+    width: 5%;
+}
+
+.card-img{
+    cursor: pointer;
+    /* width: 20%; */
+}
+
+.card-img:hover{
+    opacity: 0.3;
+    transition: 0.5s ease
+}
+
+.imgUse{
+    border-radius: 20px;
+}
+
+.mon-btn{
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background: #FF8C00;
+}
+
+.mon-btn:hover{
+    background: white;
+    color: #FF8C00;
+}
+
+.validation-btn{
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #FF8C00;
+    width: 100%;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link-offer:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    background: black;
+    position: absolute;
+    max-width: 28%;
+    padding: 6%;
+    top: 77px;
+    height: 90%;
+    right: 0;
+    display: none;
+}
+
+.menu-style{
+    cursor: pointer;
+}
+
+.chevron::after {
+    content: "\25BC"; /* Code unicode pour le chevron vers le bas */
+}
+
+.fleche::before{
+    width: 15%;
+}
+
+.offres{
+    display: none;
+}
+
+.arrow{
+    cursor: pointer;
+}
+
+.btn-connection{
+    border-radius: 15px;
+}
+
+input{
+    border-radius: 15px;
+    height: 55px;
+    width: 1000px;
+}
+
+.li-chevron{
+    cursor: pointer;
+}
+
+.dropdownCity{
+    display: none;
+    padding: 0 35px;
+    cursor: pointer;
+}
+
+.chevronCity{
+    position: absolute;
+    top: 75%;
+    right: 53%;
+}
+
+.chevronCity::after {
+    content: "\25BC"; /* Code unicode pour le chevron vers le bas */
+    margin-left: 70%;
+    color: white;
+
+}
+
+.ul-dropdown{
+    position: absolute;
+    top: 100%;
+    right: 53%;
+}
+
+.ul-dropdown li{
+    background: #383E42;
+}
+
+.horizontal-line {
+    border: 0;
+    height: 5px;
+    background-color: white; /* Couleur de la ligne */
+    margin-bottom: 9%; /* Espacement entre la ligne et le contenu suivant */
+}
+
+.typeJeux{
+    border: 1px solid #383E42;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    padding: 3%;
+    background: #383E42;
+    cursor: pointer;
+}
+
+.center{
+    color: #ccc;
+}
+
+#Paris{
+    font-weight: bold;
+    color: #FF8C00;
+    cursor: pointer;
+
+}
+#Toulouse{
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+#Bordeaux{
+    font-weight: bold;
+    cursor: pointer;
+}
+#Clermont{
+    font-weight: bold;
+    cursor: pointer;
+}
+#Lille{
+    font-weight: bold;
+    cursor: pointer;
+}
+#Toulouse:hover{
+    
+    color: white;
+}
+#Bordeaux:hover{
+    color: white;
+}
+#Clermont:hover{
+    color: white;
+}
+#Lille:hover{
+    color: white;
+}
+.center-btn{
+    width: 17%;
+    background: #FF8C00;
+    opacity: 0.3;
+    padding: 1%;
+    border-radius: 27px;
+}
+
+.cancel-reservation{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.cancel-reservation:hover{
+    color: white;
+}
+
+.need{
+    color: #FF8C00;
+}
+
+.need:hover{
+    color: #ccc;
+}
+
+.bookText{
+    font-size: 25px;
+    color: #ccc;
+
+}
+
+.book-pickup{
+    font-weight: bold;
+    color: #605d5d;
+    border: 0;
+    background: black;
+    font-size: 26px;
+}
+
+.book-pickup:hover{
+    color: #fff;
+}
+
+.input-booking-date{
+    background: black;
+    color: #ccc;
+    border: 0;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.input-booking-heure{
+    background: black;
+    color: #605d5d;
+    border: 0;
+    text-align: center;
+    font-weight: bold;
+    width: 45%;
+    font-size: 26px;
+}
+
+.spanTire{
+    color: white;
+    font-weight: bold;
+    vertical-align: text-bottom;
+}
+
+.input-booking-heure:hover{
+    color: #fff;
+}
+
+.validation{
+    position: absolute;
+    background: #fff;
+    padding: 5%;
+    border: double thick #676262;
+    border-radius: 30px;
+    width: 25%;
+    display: none;
+}
+
+.reserve-container{
+    width: 50%;
+    border: 2px solid #fff;
+    border-radius: 17px;
+    padding: 2%;
+}
+
+.calendar{
+    width: 75%;
+}
+
+.dateSize{
+    font-size: 20px;
+}
+
+.calendar__othermonth{
+    opacity: 0.3;
+}
+
+.month{
+    background: black;
+    border: 0;
+}
+
+.today{
+    color: #FF8C00 !important;
+}
+
+.val{
+    background: black;
+    color: white;
+    border: 0;
+    width: 50%;
+}
+
+.heures{
+    background: black;
+    color: #747171;
+    font-size: 25px;
+    font-weight: bold;
+    border: 0;
+    width: 6%;
+}
+
+.heures:hover{
+    color: white;
+}
